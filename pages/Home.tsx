@@ -23,15 +23,15 @@ const Home: React.FC = () => {
         <div className="container mx-auto text-center max-w-4xl relative z-10">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 mb-6 animate-float">
             <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-            <span className="text-xs font-semibold tracking-wide uppercase text-slate-300">Best Seller Digital Products</span>
+            <span className="text-xs font-semibold tracking-wide uppercase text-slate-300">WilkaXYZ Official Store</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-400">
-            Banyak yang Bilang Nyari Target Pembeli Produk Digital Itu <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-purple">Susah?</span>
+            Upgrade Your Digital Workflow with <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-pink to-neon-purple">WilkaXYZ</span>
           </h1>
           
           <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Kami sediakan modul & produk digital yang siap bantu kamu cepat pecah telur. Jangan buang waktu trial & error.
+            Premium templates, exclusive courses, and high-quality assets curated to help you scale your digital presence faster.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
               onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold text-lg shadow-[0_0_20px_rgba(79,70,229,0.4)] transition-all hover:scale-105 flex items-center gap-2"
             >
-              Lihat Produk <ArrowRight className="w-5 h-5" />
+              Jelajahi Produk <ArrowRight className="w-5 h-5" />
             </button>
           </div>
         </div>

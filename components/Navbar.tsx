@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             <Zap className="text-white w-5 h-5" />
           </div>
           <span className="text-xl font-bold font-sans tracking-tight">
-            Digi<span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">Store</span>
+            Wilka<span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-blue to-neon-purple">XYZ</span>
           </span>
         </Link>
 
